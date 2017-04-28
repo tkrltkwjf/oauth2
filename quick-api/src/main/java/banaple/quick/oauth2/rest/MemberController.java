@@ -19,4 +19,9 @@ public class MemberController {
 	public List<Member> members() {
 		return repositoryService.findAll();
 	}
+	
+	public void test(){
+		System.out.println("가나다라");
+		
+	}
 }
